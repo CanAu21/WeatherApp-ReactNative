@@ -1,8 +1,24 @@
-This is a new [**React Native**](https://reactnative.dev) project, bootstrapped using [`@react-native-community/cli`](https://github.com/react-native-community/cli).
+# Weather App
+
+# Program Purpose
+
+This program aims to display the weather information of the city or country specified by the user. Users can enter a city or country name in the search bar of the application to view weather information.
+
+# Technologies Used
+
+React Native: Used for developing cross-platform mobile applications.
+OpenWeather API: Used to fetch weather data.
+JavaScript: Used to build the application logic and components.
+Axios: Used for making API requests.
+
+# How It Works
+
+1. The user opens the application and enters a city or country name in the search bar at the top.
+2. The user presses the enter key or taps the search icon.
+3. The application makes a request to the OpenWeather API and retrieves the weather information for the specified city.
+4. The application displays the maximum and minimum temperature of the city using the retrieved data.
 
 # Getting Started
-
->**Note**: Make sure you have completed the [React Native - Environment Setup](https://reactnative.dev/docs/environment-setup) instructions till "Creating a new application" step, before proceeding.
 
 ## Step 1: Start the Metro Server
 
@@ -57,23 +73,6 @@ Now that you have successfully run the app, let's modify it.
 
 ## Congratulations! :tada:
 
-You've successfully run and modified your React Native App. :partying_face:
+You've successfully run and modified your React Native App.
 
-### Now what?
-
-- If you want to add this new React Native code to an existing application, check out the [Integration guide](https://reactnative.dev/docs/integration-with-existing-apps).
-- If you're curious to learn more about React Native, check out the [Introduction to React Native](https://reactnative.dev/docs/getting-started).
-
-# Troubleshooting
-
-If you can't get this to work, see the [Troubleshooting](https://reactnative.dev/docs/troubleshooting) page.
-
-# Learn More
-
-To learn more about React Native, take a look at the following resources:
-
-- [React Native Website](https://reactnative.dev) - learn more about React Native.
-- [Getting Started](https://reactnative.dev/docs/environment-setup) - an **overview** of React Native and how setup your environment.
-- [Learn the Basics](https://reactnative.dev/docs/getting-started) - a **guided tour** of the React Native **basics**.
-- [Blog](https://reactnative.dev/blog) - read the latest official React Native **Blog** posts.
-- [`@facebook/react-native`](https://github.com/facebook/react-native) - the Open Source; GitHub **repository** for React Native.
+<img src="/assets/gif.gif"/>
